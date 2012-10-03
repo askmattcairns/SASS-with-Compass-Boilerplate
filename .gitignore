@@ -2,3 +2,5 @@
 .DS_Store
 profile
 .sass-cache
+_/js/libs/jquery.min.js
+_/js/libs/modernizr.js

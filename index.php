@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta http-equiv=Content-type content="text/html; charset=utf-8">
-	<title>HTML5 SASS Boilerplate</title>
+	<title>Fox - Gleek of the Week</title>
   
   <link 
     rel="stylesheet" 
@@ -32,7 +32,7 @@
     });
 
     // Additional initialization code here
-    FB.Canvas.setSize(); // Use FB.Canvas.setAutoGrow()
+    FB.Canvas.setAutoGrow();
   };
 
   // Load the SDK Asynchronously
@@ -49,15 +49,15 @@
   }(document));
 </script>
 
-<div id="site-wrapper">
+<div class="site-wrapper">
   
-</div><!-- /#site-wrapper -->
+</div><!-- /.site-wrapper -->
 
 <!--
   Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if
   offline
 -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script>
   window.jQuery ||
   document.write('<script src="_/js/libs/jquery.min.js"><\/script>');
