@@ -3,21 +3,17 @@
 <head>
 	<meta http-equiv=Content-type content="text/html; charset=utf-8">
 	<title>Boilerplate Title</title>
-  
-  <link 
-    rel="stylesheet" 
-    href="style.css" 
-    type="text/css" 
-    media="screen"  
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+    type="text/css"
+    media="screen"
     charset="utf-8">
-  
-  <!-- Modernizr, mainly for html5 shiv -->
-  <script 
-    src="_/js/libs/modernizr.js" 
-    type="text/javascript" 
-    charset="utf-8">
-  </script>
-  
+
+  <!-- Site scripts -->
+  <script src="_/js/scripts.js" type="text/javascript" charset="utf-8"></script>
+
 </head>
 <body>
 
@@ -50,22 +46,8 @@
 </script>
 
 <div class="site-wrapper">
-  
+
 </div><!-- /.site-wrapper -->
-
-<!--
-  Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if
-  offline
--->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script>
-  window.jQuery ||
-  document.write('<script src="_/js/libs/jquery.min.js"><\/script>');
-</script>
-
-<!-- Site Scripts -->
-<script src="_/js/plugins.js" type="text/javascript" charset="utf-8"></script>
-<script src="_/js/script.js" type="text/javascript" charset="utf-8"></script>
 
 <!-- Twitter -->
 <script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
