@@ -2,6 +2,8 @@
 <html>
 <head>
 	<meta http-equiv=Content-type content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width">
+
 	<title>Boilerplate Title</title>
 
   <link
@@ -12,7 +14,7 @@
     charset="utf-8">
 
   <!-- Site scripts -->
-  <script src="_/js/scripts.js" type="text/javascript" charset="utf-8"></script>
+  <script src="_/js/scripts-ck.js" type="text/javascript" charset="utf-8"></script>
 
 </head>
 <body>
